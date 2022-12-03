@@ -1,0 +1,27 @@
+WAY 1:
+def vote(n):
+    if n>18:
+        print("Yes")
+    else:
+        print("No")
+n=int(input())
+vote(n)
+WAY 2:
+def vote(n):
+    if n>18:
+        return "Yes"
+    else:
+        return "No"
+n=int(input())
+print(vote(n))
+WAY 3:
+def vote(n):
+    if  n>18:
+        return True
+    else:
+        return False
+n=int(input())
+if(vote(n)):
+    print('Yes')
+else:
+    print('No')
