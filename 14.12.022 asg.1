@@ -1,0 +1,14 @@
+n=int(input())
+l=list(map(int,input().split()))
+maxim=l[0]
+minim=l[0]
+for i in range(0,n):
+    if l[i]>maxim:
+        maxim=l[i]
+    if l[i]<minim:
+        minim=l[i]
+print(minim,maxim)
+Output:
+5
+1 2 3 44 0
+0 44
